@@ -12,6 +12,6 @@ class Song
   end
    
   def self.count()
-    return 
+    return "#@@count"
   end
 end
