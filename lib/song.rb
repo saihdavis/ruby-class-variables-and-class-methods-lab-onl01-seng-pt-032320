@@ -8,6 +8,7 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
+    @@album_count = 0 
   end
   
   def 
