@@ -10,8 +10,8 @@ class Song
     @genre = genre
    
   end
-   @@album_count += 1 
+   
   def self.count
-    @@album_count
+    @@album_count@@album_count += 1 
   end
 end
