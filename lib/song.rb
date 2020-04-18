@@ -12,6 +12,6 @@ class Song
   end
    
   def self.count()
-   
+    return 
   end
 end
