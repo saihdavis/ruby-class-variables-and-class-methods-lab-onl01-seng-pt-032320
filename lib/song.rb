@@ -11,7 +11,7 @@ class Song
     @genre = genre
   end
    
-   array = self.count
+   array = self.count()
    
   end
 end
