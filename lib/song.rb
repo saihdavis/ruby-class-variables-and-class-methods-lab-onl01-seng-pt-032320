@@ -11,12 +11,12 @@ class Song
     @@album_count = 0 
   end
   
-  def 
+  def def self.count
+    @@album_count
    
 end
 d
  
-  def self.count
-    @@album_count
+  
   end
 end
