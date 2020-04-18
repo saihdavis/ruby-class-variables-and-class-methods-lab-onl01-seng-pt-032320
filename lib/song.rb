@@ -19,6 +19,6 @@ class Song
     return "#@@count"
   end
     def self.genres
-      return @@genres.
+      return @@genres.uniq
 
 end
