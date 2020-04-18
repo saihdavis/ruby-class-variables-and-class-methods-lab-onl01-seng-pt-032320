@@ -5,6 +5,7 @@ class Song
    @@count = 0 
    
   def initialize(name, artist, genre)
+    @@count += 1 
     @name = name
     @artist = artist
     @genre = genre
@@ -12,8 +13,5 @@ class Song
   end
    
   def self.count
-    @@album_count
-    
-    @@album_count += 1 
   end
 end
