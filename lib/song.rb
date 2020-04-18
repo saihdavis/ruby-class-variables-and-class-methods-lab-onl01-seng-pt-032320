@@ -12,5 +12,7 @@ class Song
   end
    
    array = self.count
+   
   end
+end
 end
