@@ -8,8 +8,9 @@ class Song
     @@count += 1 
   end
     
-  def self.count
-     @@count
+  def name
+    @name
+  end
  
 end
 end
