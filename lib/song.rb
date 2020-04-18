@@ -11,6 +11,6 @@ class Song
     @genre = genre
   end
    
-   array = self.count(#@artist)
+   array = self.count
   end
 end
