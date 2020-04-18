@@ -19,6 +19,7 @@ class Song
     return "#@@count"
   end
     
-    
+    def self.count(artists)
+      return "#@artists"
 end 
 end
