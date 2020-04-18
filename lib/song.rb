@@ -1,5 +1,6 @@
 class Song 
   
+  attr_accessor 
    
    @@count = 0 
    
